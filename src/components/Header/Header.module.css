@@ -1,0 +1,9 @@
+.header {
+  /* background: linear-gradient(45deg, #ffffff, #ff6000);
+  padding: 0px 0px 0px 0px; */
+  grid-area: header_cell;
+}
+
+.header img {
+  width: 5%;
+}

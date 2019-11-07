@@ -1,0 +1,4 @@
+.footer {
+    grid-area: footer_cell;
+    background: green;
+  }

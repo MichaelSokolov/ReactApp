@@ -1,0 +1,21 @@
+.houses_page {
+  display: grid;
+  /* grid-template-rows: auto; */
+  grid-template-columns: repeat(auto-fit, 600px);
+  border: 1px solid red;
+  grid-gap: 15px;
+  margin: auto;
+}
+.isActive {
+  font-weight: bold;
+}
+.passive {
+  cursor: pointer;
+}
+.paginator {
+  max-width: 1244px;
+  border: 1px solid green;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

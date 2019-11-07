@@ -1,0 +1,41 @@
+.cell_flat {
+  background: linear-gradient(45deg, #ffb302, #ff6000);
+  cursor: pointer;
+  grid-area: rigth_cell;
+  max-width: 500px;
+  max-height: 600px;
+}
+
+.image_flat img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  width: 60%;
+  border: 0;
+}
+
+.title_flat {
+  margin: 5% auto 30px 20%;
+  font-family: Roboto, serif;
+  color: white;
+  letter-spacing: -1px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.button_flat {
+  display: inline-block;
+  padding: 15px 10px 15px 10px;
+  font-size: 18px;
+  font-weight: 650;
+  border-radius: 2px;
+  border: solid 1px #ffffff;
+  color: #fff;
+  margin: 0 30px 30px 20%;
+}
+.cell_flat:hover .button_flat {
+  background-color: white;
+  color: #ff9200;
+}

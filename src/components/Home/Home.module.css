@@ -1,0 +1,9 @@
+.home{
+    display: grid;
+    grid-template-rows: auto ;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+      "left_cell rigth_cell";
+    grid-gap: 20px;
+  }
+  
